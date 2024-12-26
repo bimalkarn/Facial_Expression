@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 import cv2
 
 # Define constants
-MODEL_PATH = r'C:\Users\hengb\Downloads\FACIAL EXPRESSIONS\facial_expression_model.h5'  # Update to your model's path
+MODEL_PATH ="facial_expression_model.h5"  # Update to your model's path
 IMAGE_SIZE = (48, 48)  # Input size expected by the model
 EXPRESSIONS = ['happy', 'sad', 'angry', 'neutral', 'surprise', 'fear', 'disgust']  # Define labels
 
